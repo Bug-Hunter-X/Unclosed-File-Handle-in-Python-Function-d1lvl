@@ -1,0 +1,1 @@
+This repository demonstrates a common Python error: forgetting to close files after use.  The `bug.py` file shows a function that opens a file but fails to close it, leading to potential resource leaks.  The `bugSolution.py` file provides a corrected version using context managers ('with' statement) to ensure proper file closure even in the event of exceptions.
